@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SplTokenStarterKit
 
-## Getting Started
+A developer-friendly starter for building SPL token launchpad dApps on Solana, powered by Next.js.
 
-First, run the development server:
+## Quick Start
+
+- **Install dependencies**  
+  ```
+  npm install
+  ```
+- **Launch dev server**  
+  ```
+  npm run dev
+  ```
+  Or use `yarn dev`, `pnpm dev`, or `bun dev` based on your package manager.
+
+- **Access the app**  
+  Open [http://localhost:3000](http://localhost:3000) in your browser to preview.
+
+## Edit & Customize
+
+- Start in `src/app/page.tsx` for main page layout.
+- Changes in source files trigger automatic reload for fast developer feedback.
+- Uses [Inter](https://fonts.google.com/specimen/Inter) by default for polished web typography.
+
+## Developer Resources
+
+Explore Solana and Next.js development:
+- [Solana Tokens](https://solana.com/docs/tokens) for managing SPL tokens.[1]
+- [Next.js Docs](https://nextjs.org/docs) for framework features.
+- [SPL Token CLI](https://spl.solana.com/token) for quick minting and token account setup.[2][8]
+- [Smithii Solana Launchpad Guide](https://smithii.io/en/solana-token-launchpad/) for IDO/presale practical tips.[3]
+
+## Deployment
+
+Ready to go live?  
+Follow [Vercel’s Next.js deployment guide](https://vercel.com/docs/next.js-deployment) to host your dApp.
+
+## About
+
+SplTokenStarterKit provides an adaptable foundation for launching, selling, and managing SPL tokens on Solana. Extend it for IDO, presale, or custom token launches and plug in wallet integrations, security checks, and launchpad automations as needed.Here’s a rewritten README for your repo in a different project name and onboarding style:
+
+***
+
+# SPL-Token-Launchpad-Pro
+
+Modern Next.js Starter for Solana SPL Token Launchpad Apps
+
+## About
+
+_SPL-Token-Launchpad-Pro_ is a Next.js template that helps Solana developers quickly bootstrap web apps for creating, managing, and selling SPL tokens. Powered by customizable UI and ready for integration with Solana wallet adapters.
+
+## Local Development
+
+Install dependencies, then start the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Alternatively:
+# yarn dev
+# pnpm dev
+# bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your browser to preview your app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Edit the main page at `src/app/page.tsx`—hot reloading is enabled for instant updates.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Fonts are optimized automatically using `next/font`. Default typography is based on Inter.
 
-## Learn More
+## Resources
 
-To learn more about Next.js, take a look at the following resources:
+- Learn more about Next.js: [Official Docs](https://nextjs.org/docs)
+- Solana SPL Token Guide: [Solana Tokens](https://solana.com/docs/tokens)[1]
+- Next.js sample projects: [GitHub](https://github.com/vercel/next.js/)
+- Quick token launchpad dev tips: [Helius SPL Token Tutorial], [Smithii Launchpad Guide][2][3]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Deploy your finished dApp easily using Vercel’s platform—see [deployment documentation](https://vercel.com/docs/next.js-deployment).
 
-## Deploy on Vercel
+## Extend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This starter can be integrated with wallet adapters, SPL-token smart contracts, and launchpad logic for your own IDOs, presales, or sales landing pages.
